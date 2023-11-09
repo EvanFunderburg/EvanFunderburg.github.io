@@ -6,13 +6,28 @@ body {
     color:darkorchid;
     text-align: center;
     }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    a:hover{
+        text-decoration: none;
+        color: darkslategray;
+    }
+
     .assign {
         display: flex;
         padding: 10px;
         margin: 10px;
         background:mediumaquamarine;
+        border-radius: 20px;
         }
         .assign img {
         width: 200px;
-        padding: 10px;
+        margin: 10px;
+        border: 2px solid slategrey;
+        border-radius: 10px;
+        }
+        .assign img:hover{
+            border: 2px dashed greenyellow;
         }
